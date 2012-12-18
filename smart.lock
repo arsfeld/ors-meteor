@@ -6,13 +6,19 @@
   },
   "dependencies": {
     "basePackages": {
-      "router": {}
+      "router": {},
+      "blade": {}
     },
     "packages": {
       "router": {
         "git": "https://github.com/tmeasday/meteor-router.git",
         "tag": "v0.3.4",
         "commit": "8f0d5303de5b93771e91f21f818be27358c2fb30"
+      },
+      "blade": {
+        "git": "https://github.com/bminer/node-blade.git",
+        "tag": "v3.0.0alpha9",
+        "commit": "1f6e3b8b3231bdf7ed783cb46f51d5aeb643bd0a"
       },
       "page-js": {
         "git": "https://github.com/tmeasday/meteor-page-js.git",
