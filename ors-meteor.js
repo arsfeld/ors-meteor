@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
+  Template.test.greeting = function () {
     return "Welcome to newmrt.";
   };
 
